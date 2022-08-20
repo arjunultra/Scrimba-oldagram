@@ -1,12 +1,40 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
 }
-.container {
+.main-container {
+  max-width: 375px;
+  height: 545px;
+}
+.header {
   width: 375px;
-  margin: 0 auto;
+  height: 67px;
+}
+.title {
+  font-weight: bold;
+  font-size: 13px;
+}
+.location {
+  font-size: 12px;
+  margin-top: -15px;
+}
+.user-avatar {
+  height: 34px;
+  width: 34px;
+}
+.logo-main {
+  height: 4em;
+  width: 9em;
+}
+.vangogh-img {
+  height: 34px;
+  width: 34px;
+}
+.post-image {
+  height: 375px;
+  width: 375px;
+}
+.small-btn {
+  height: 23px;
+  width: 23px;
 }
